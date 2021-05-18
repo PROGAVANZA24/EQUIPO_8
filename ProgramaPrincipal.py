@@ -35,3 +35,11 @@ class Curso:
         self.IdEmpleado=IdEmpleado
     def display(self):
         print(f'IdCurso: {self.IdCurso},Descripcion: {self.Descripcion}, IdEmpleado:{self.IdEmpleado}')
+
+class Empleado:
+    def _init_(self,IdEmpleado,Nombre,Direccion):
+        self.IdEmpleado=IdEmpleado
+        self.Nombre=Nombre
+        self.Direccion=Direccion
+    def display(self):
+        print(f'IdEmpleado: {self.IdEmpleado},Nombre:{self.Nombre},Direccion: {self.Direccion}')
