@@ -19,3 +19,11 @@ class CursoTemaVideo:
         self.IdCTV=IdCTV
         self.IdCT=IdCT
         self.Video=Video
+
+class CursoTema:
+    def _init_(self,IdCT,IdCurso,IdTema):
+        self.IdCT=IdCT
+        self.IdCurso=IdCurso
+        self.IdTema=IdTema
+    def display(self):
+        print(f'IdCT: {self.IdCT},IdCurso: {self.IdCurso},IdTema: {self.IdTema}')
