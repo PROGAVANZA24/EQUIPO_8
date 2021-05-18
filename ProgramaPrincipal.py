@@ -4,3 +4,18 @@ class Tema:
         self.Nombre=Nombre
     def display(self):
         print(f'IdTema: {self.IdTema},Nombre: {self.Nombre}')
+
+class Video:
+    def _init_(self,IdVideo,Nombre,URL,FechaPublicacion):
+        self.IdVideo=IdVideo
+        self.Nombre=Nombre
+        self.URL=URL
+        self.FechaPublicacion=FechaPublicacion
+    def display(self):
+        print(f'IdVideo:{self.IdVideo}, Nombre: {self.Nombre}, URL: {self.URL}, Fecha Publicacion: {self.FechaPublicacion}')
+
+class CursoTemaVideo:
+    def _init_(self,IdCTV,IdCT,Video):
+        self.IdCTV=IdCTV
+        self.IdCT=IdCT
+        self.Video=Video
