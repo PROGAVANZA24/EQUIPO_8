@@ -147,3 +147,30 @@ if (Tabla=='C'):
         print(Curso2)
 f=open('c:/Users/clara/OneDrive/Escritorio/Programas/Curso.txt','w',encoding='utf8')
 f.close
+
+from ProgramaPrincipal import Empleado
+if (Tabla=='E'):
+    Empleado1={
+            'IdEmpleado': 1,
+            'Nombre': 'Kim Seok Jin ',
+            'Direccion': 'Apodaca, N.L.'
+        }
+    Empleado2={
+            'IdEmpleado': 2,
+            'Nombre': 'Kim Namjoon',
+            'Direccion': 'Apodaca, N.L.'
+        }
+    print('Cómo desea hacer su consulta')
+    print('a=Por Id')
+    print('b= Desea ver la información completa')
+    respuesta=input()
+    if (respuesta=='a'):
+        a=Empleado1['IdEmpleado']
+        print('IdEmpleado1: ',a)
+        a=Empleado2['IdEmpleado']
+        print('IdEmpleado2: ',a)
+    else:
+        print(Empleado1)
+        print(Empleado2)
+f=open('c:/Users/clara/OneDrive/Escritorio/Programas/Empleado.txt','w',encoding='utf8')
+f.close
