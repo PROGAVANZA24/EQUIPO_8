@@ -1,0 +1,2 @@
+{'IdCTV': 1, 'IdCT': 1, 'Video': 'Diferencias entre combinaciones y permutaciones'} 
+{'IdCTV': 2, 'IdCT': 2, 'Video': 'Diferencias entre mezclas homogeneas y heterogeneas'}
