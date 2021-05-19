@@ -39,3 +39,32 @@ if (Tabla=='T'):
         print(Tema2)
 f=open('c:/Users/clara/OneDrive/Escritorio/Programas/Tema.txt','w',encoding='utf8')
 f.close
+
+from ProgramaPrincipal import Video
+if (Tabla=='V'):
+    Video1={
+            'IdVideo':1,
+            'Nombre': 'Diferencias entre combinaciones y permutaciones',
+            'URL':'www.mate2.com',
+            'Fecha Publicacion': '12/02/15'
+        }
+    Video2={
+            'IdVideo':2,
+            'Nombre': 'Diferencias entre mezclas homogeneas y heterogeneas',
+            'URL':'www.quimik.com',
+            'Fecha Publicacion': '15/04/21'
+        }
+    print('Cómo desea hacer su consulta')
+    print('a=Por Id')
+    print('b= Desea ver la información completa')
+    respuesta=input()
+    if (respuesta=='a'):
+        a=Video1['IdVideo']
+        print('IdVideo1: ',a)
+        a=Video2['IdVideo']
+        print('IdVideo2: ',a)
+    else:
+        print(Video1)
+        print(Video2)
+f=open('c:/Users/clara/OneDrive/Escritorio/Programas/Video.txt','w',encoding='utf8')
+f.close
