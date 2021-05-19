@@ -1,0 +1,2 @@
+{'IdCT': 1, 'IdCurso': 1, 'IdVideo': 1}
+{'IdCT': 2, 'IdCurso': 2, 'IdVideo': 2}
