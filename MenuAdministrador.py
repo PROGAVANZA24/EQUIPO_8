@@ -95,7 +95,7 @@ if (Tabla=='CTV'):
 f=open('c:/Users/clara/OneDrive/Escritorio/Programas/CursoTemaVideo.txt','w',encoding='utf8')
 f.close
 
-from ProgramaPia import CursoTema
+from ProgramaPrincipal import CursoTema
 if (Tabla=='CT'):
     CT1={
             'IdCT':1,
@@ -120,4 +120,30 @@ if (Tabla=='CT'):
         print(CT1)
         print(CT2)
 f=open('c:/Users/clara/OneDrive/Escritorio/Programas/CursoTema.txt','w',encoding='utf8')
+f.close
+from ProgramaPrincipal import Curso
+if (Tabla=='C'):
+    Curso1={
+            'IdCurso': 1,
+            'Descripcion': 'Probabilidad: Combinaciones y Permutaciones',
+            'IdEmpleado': 1
+        }
+    Curso2={
+            'IdCurso': 2,
+            'Descripcion': 'Quimica: Mezclas homogeneas y heterogeneas',
+            'IdEmpleado': 2
+        }
+    print('Cómo desea hacer su consulta')
+    print('a=Por Id')
+    print('b= Desea ver la información completa')
+    respuesta=input()
+    if (respuesta=='a'):
+        a=Curso1['IdCurso']
+        print('IdCurso1: ',a)
+        a=Curso2['IdCurso']
+        print('IdCurso2: ',a)
+    else:
+        print(Curso1)
+        print(Curso2)
+f=open('c:/Users/clara/OneDrive/Escritorio/Programas/Curso.txt','w',encoding='utf8')
 f.close
