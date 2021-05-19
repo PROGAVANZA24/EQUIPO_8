@@ -1,0 +1,2 @@
+{'IdCurso': 1, 'Descripcion': 'Probabilidad: Combinaciones y Permutaciones', 'IdEmpleado': 1}
+{'IdCurso': 2, 'Descripcion': 'Quimica: Mezclas homogeneas y heterogeneas', 'IdEmpleado': 2}
