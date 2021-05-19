@@ -94,3 +94,30 @@ if (Tabla=='CTV'):
         print(CTV2)
 f=open('c:/Users/clara/OneDrive/Escritorio/Programas/CursoTemaVideo.txt','w',encoding='utf8')
 f.close
+
+from ProgramaPia import CursoTema
+if (Tabla=='CT'):
+    CT1={
+            'IdCT':1,
+            'IdCurso':1,
+            'IdVideo':1
+        }
+    CT2={
+            'IdCT':2,
+            'IdCurso':2,
+            'IdVideo':2
+        }
+    print('Cómo desea hacer su consulta')
+    print('a=Por Id')
+    print('b= Desea ver la información completa')
+    respuesta=input()
+    if (respuesta=='a'):
+        a=CT1['IdCT']
+        print('IdCT1: ',a)
+        a=CT2['IdCT']
+        print('IdCT2: ',a)
+    else:
+        print(CT1)
+        print(CT2)
+f=open('c:/Users/clara/OneDrive/Escritorio/Programas/CursoTema.txt','w',encoding='utf8')
+f.close
