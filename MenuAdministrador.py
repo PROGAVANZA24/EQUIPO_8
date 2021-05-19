@@ -37,7 +37,7 @@ if (Tabla=='T'):
     else:
         print(Tema1)
         print(Tema2)
-f=open('c:/Users/clara/OneDrive/Escritorio/Programas/Tema.txt','w',encoding='utf8')
+f=open('c:/PIA/EQUIPO_8/Tema.txt','w',encoding='utf8')
 f.close
 
 from ProgramaPrincipal import Video
@@ -66,7 +66,7 @@ if (Tabla=='V'):
     else:
         print(Video1)
         print(Video2)
-f=open('c:/Users/clara/OneDrive/Escritorio/Programas/Video.txt','w',encoding='utf8')
+f=open('c:/PIA/EQUIPO_8/Tema.txt','w',encoding='utf8')
 f.close
 from ProgramaPrincipal import CursoTemaVideo
 if (Tabla=='CTV'):
@@ -92,7 +92,7 @@ if (Tabla=='CTV'):
     else:
         print(CTV1)
         print(CTV2)
-f=open('c:/Users/clara/OneDrive/Escritorio/Programas/CursoTemaVideo.txt','w',encoding='utf8')
+f=open('c:/PIA/EQUIPO_8/Tema.txt','w',encoding='utf8')
 f.close
 
 from ProgramaPrincipal import CursoTema
@@ -119,7 +119,7 @@ if (Tabla=='CT'):
     else:
         print(CT1)
         print(CT2)
-f=open('c:/Users/clara/OneDrive/Escritorio/Programas/CursoTema.txt','w',encoding='utf8')
+f=open('c:/PIA/EQUIPO_8/Tema.txt','w',encoding='utf8')
 f.close
 from ProgramaPrincipal import Curso
 if (Tabla=='C'):
@@ -145,7 +145,7 @@ if (Tabla=='C'):
     else:
         print(Curso1)
         print(Curso2)
-f=open('c:/Users/clara/OneDrive/Escritorio/Programas/Curso.txt','w',encoding='utf8')
+f=open('c:/PIA/EQUIPO_8/Tema.txt','w',encoding='utf8')
 f.close
 
 from ProgramaPrincipal import Empleado
@@ -172,5 +172,5 @@ if (Tabla=='E'):
     else:
         print(Empleado1)
         print(Empleado2)
-f=open('c:/Users/clara/OneDrive/Escritorio/Programas/Empleado.txt','w',encoding='utf8')
+f=open('c:/PIA/EQUIPO_8/Tema.txt','w',encoding='utf8')
 f.close
