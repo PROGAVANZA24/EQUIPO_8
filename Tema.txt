@@ -1,0 +1,2 @@
+{'IdTema': 1, 'Nombre': 'Combinaciones y Permutaciones'}
+{'IdTema': 2, 'Nombre': 'Mezclas homogeneas y heterogeneas'}
