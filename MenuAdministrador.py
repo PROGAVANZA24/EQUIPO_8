@@ -68,3 +68,29 @@ if (Tabla=='V'):
         print(Video2)
 f=open('c:/Users/clara/OneDrive/Escritorio/Programas/Video.txt','w',encoding='utf8')
 f.close
+from ProgramaPrincipal import CursoTemaVideo
+if (Tabla=='CTV'):
+    CTV1={
+            'IdCTV':1,
+            'IdCT': 1,
+            'Video': 'Diferencias entre combinaciones y permutaciones'
+        }
+    CTV2={
+            'IdCTV':2,
+            'IdCT': 2,
+            'Video': 'Diferencias entre mezclas homogeneas y heterogeneas'
+        }
+    print('Cómo desea hacer su consulta')
+    print('a=Por Id')
+    print('b= Desea ver la información completa')
+    respuesta=input()
+    if (respuesta=='a'):
+        a=CTV1['IdCTV']
+        print('IdCTV1: ',a)
+        a=CTV2['IdCTV']
+        print('IdCTV2: ',a)
+    else:
+        print(CTV1)
+        print(CTV2)
+f=open('c:/Users/clara/OneDrive/Escritorio/Programas/CursoTemaVideo.txt','w',encoding='utf8')
+f.close
