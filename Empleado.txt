@@ -1,0 +1,2 @@
+{'IdEmpleado': 1, 'Nombre': 'Kim Seok Jin ', 'Direccion': 'Apodaca, N.L.'}
+{'IdEmpleado': 2, 'Nombre': 'Kim Namjoon', 'Direccion': 'Apodaca, N.L.'}  
